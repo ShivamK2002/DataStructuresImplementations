@@ -3,11 +3,11 @@ using namespace std;
 
 class Stack
 {
-public:
+private:
     int *arr;
     int top;
     int size;
-
+public:
     Stack(int size)
     {
         this->size = size;
